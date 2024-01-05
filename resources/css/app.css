@@ -13,7 +13,6 @@ body{
     border-radius: 10px;
 }
 
-/* Personnalisation de la barre de défilement Firefox */
 * {
     scrollbar-width: thin;
     scrollbar-color: #e4b77e #e4b77e;
@@ -89,6 +88,10 @@ body{
     text-align: center;
 }
 
+#devConteneur{
+    text-align: center;
+}
+
 #devCard{
     margin: auto;
     height: 90%;
@@ -131,9 +134,10 @@ h2 {
 }
 
 #competences > div{
-    margin-right: 20px;
-    flex-grow: 1;
+    text-align: center;
+    margin-right: 20px auto;
 }
+
 
 #devCard{
     background-color: #1b1b1b;
@@ -274,6 +278,7 @@ footer {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    
 }
 
 @media (max-width: 1000px) {
@@ -308,11 +313,11 @@ footer {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    
 }
 
 @media (max-width: 576px) {
     #devCard {
-        margin-left: 10px;
         margin-bottom: 10px;
         height: 15vh;
         width: 12vh;
@@ -342,5 +347,6 @@ footer {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    
 }
 
