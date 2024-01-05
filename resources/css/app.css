@@ -375,7 +375,30 @@ footer {
     #imgProj{
         margin: 0.5rem;
     }
-
 }
 
+
+.dev-card {
+    position: relative;
+    display: inline-block;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #1b1b1b;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1;
+}
+
+.dev-card:hover .popup {
+    display: block;
+}
 
