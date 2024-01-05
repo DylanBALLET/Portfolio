@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <link rel="icon" href="../../resources/images/logos/portfolio.png">
+    <link rel="stylesheet" href="../../resources/css/app.css">
+    <title>JA-Dex</title>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark p-2 fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../willkommen.html">Startseite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../willkommen.html#titreCompetences">Fähigkeiten</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Projekte
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../projekts/jadex.html">JA-Dex</a></li>
+                        <li><a class="dropdown-item" href="../projekts/shibaclicker.html">ShibaClicker</a></li>
+                        <li><a class="dropdown-item" href="../projekts/flatcraft.html">Flatcraft</a></li>
+                        <li><a class="dropdown-item" href="../projekts/historymaker.html">HistoryMaker</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../ubermich.html">Über Mich</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../resources/cv/CV_BALLET_Dylan_EN.pdf" target="_blank"
+                       type="application/pdf" style="text-decoration: none; color: white">CV ↗</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="fr">
+            <a href="../../projets/jadex.html" style="text-decoration: none; color: white"><img src="../../resources/images/france.jpg" alt="Französisch Flagge"></a>
+            <a href="/anglais/projects/jadex.html" style="text-decoration: none; color: white"><img src="../../resources/images/anglais.jpg" alt="englisch Flagge"></a>
+        </div>
+    </div>
+</nav>
+
+<div id="pageProjets" style="margin-bottom: 3rem; margin-top: 5rem">
+    <h2 id="titreProj">JA-Dex</h2>
+
+    <div class="d-flex align-items-center">
+        <div class="p-4">
+            <p>JA-Dex ist ein gemeinschaftliches Projekt von einem 4-köpfigen Team im Rahmen des IUT. Das Ziel des Projekts ist es, eine Website zu erstellen, die alle notwendigen Informationen zu einem bestimmten Pokémon bietet und es Benutzern ermöglicht, es ihrer Pokémon-Sammlung hinzuzufügen.</p>
+            <p>Es hat mehrere Seiten:</p>
+            <ul>
+                <li>Die Startseite</li>
+                <li>Die "Pokedex"-Seite</li>
+                <li>Die Sammlungsseite</li>
+                <li>Login-Seite</li>
+            </ul>
+
+            <p>Auf der Startseite gibt es eine Suchleiste, mit der Benutzer ein Pokémon aus allen Generationen auswählen können, um seine Statistiken zu finden.</p>
+
+            <p>Die Informationsseite ist der nächste Schritt nach der Startseite und bietet Details zum ausgewählten Pokémon, einschließlich:</p>
+
+            <ul>
+                <li>Sein <strong>Typ(en)</strong></li>
+                <li>Seine <strong>Lebenspunkte</strong></li>
+                <li>Sein <strong>Angriff</strong></li>
+                <li>Seine <strong>Verteidigung</strong></li>
+                <li>Seine <strong>spezieller Angriff</strong></li>
+                <li>Seine <strong>spezielle Verteidigung</strong></li>
+                <li>Seine <strong>Höhe</strong> (in Metern)</li>
+                <li>Sein <strong>Gewicht</strong> (in Kilogramm)</li>
+                <li>Und sein <strong>Schrei</strong></li>
+            </ul>
+
+            <p>Die Sammlungsseite dient dazu, mehrere ausgewählte Pokémon zu speichern (zu bookmarken). Sie ist nur zugänglich, wenn der Benutzer angemeldet ist.</p>
+
+            <button id="github" type="button" class="text-center btn btn-outline-secondary"> <a href="https://github.com/DylanBALLET/JA-Dex/blob/main/README.md">GitHub</a> </button>
+            <hr id="ligne">
+        </div>
+    </div>
+    <div class="text-center">
+        <img id="imgProjet"  src="../../resources/images/jadex1.png" alt="Illustration des JA-Dex-Site">
+        <p>(Startseite)</p>
+    </div>
+    <hr id="ligne">
+    <div class="text-center">
+        <img id="imgProjet"  src="../../resources/images/jadex2.png" alt="Illustration des JA-Dex-Site">
+        <p>(Informationsseite)</p>
+    </div>
+    <hr id="ligne">
+    <div class="text-center">
+        <img id="imgProjet"  src="../../resources/images/jadex3.png" alt="Illustration des JA-Dex-Site">
+        <p>(Sammlungsseite)</p>
+    </div>
+</div>
+</body>
+
+<footer>
+    <p>© 2023 BALLET Dylan. Alle Rechte vorbehalten.</p>
+    Gehostet auf Github
+</footer>

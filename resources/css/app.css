@@ -34,6 +34,12 @@ body{
     margin-left: auto;
 }
 
+.navbar img{
+    margin: 5px;
+    width: 30px;
+    height: auto;
+}
+
 .navbar .en {
     color: white;
     margin-left: auto;
@@ -166,7 +172,7 @@ h2 {
 
 #imgProj{
     max-width: 10rem;
-    margin: 2rem;
+    margin: 2rem auto;
 }
 
 #butProj{
@@ -195,7 +201,7 @@ h2 {
 
 #imgProjet{
     width: 90%;
-    margin: 2rem auto;
+    margin: 0 auto 2rem auto;
 
 }
 
@@ -278,6 +284,12 @@ footer {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
+    #imgProj{
+        margin: 0 auto 2rem auto;
+    }
+
+    
     
 }
 
@@ -313,6 +325,10 @@ footer {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
+    #imgProj{
+        margin: 0 auto 2rem auto;
+    }
     
 }
 
@@ -336,6 +352,7 @@ footer {
 
     #imgProj {
         width: 5rem;
+        margin: 1rem auto;
     }
 
     #pageApropos {
@@ -346,7 +363,19 @@ footer {
     #pageApropos {
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+    #butProj{
+        margin: 1rem auto;
     }
     
+    #github{
+        margin: auto 1rem;
+    }
+    
+    #imgProj{
+        margin: 0.5rem;
+    }
+
 }
+
 
