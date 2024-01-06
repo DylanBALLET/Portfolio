@@ -1,5 +1,6 @@
 body{
-    background-image: url("../../resources/images/bg.jpg");
+    background-image: url("../../resources/images/bg.svg");
+    background-size: cover;
     scrollbar-base-color: #e4b77e;
     scroll-behavior: smooth;
 }
@@ -341,8 +342,8 @@ footer {
     }
 
     #devCard>img {
-        width: 5vh;
-        height: 5vh;
+        width: 7vh;
+        height: 7vh;
     }
 
     #devCard>p {
